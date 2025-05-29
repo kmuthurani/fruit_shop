@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.bill_list .table 
+     {
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px;
+        margin: 10px;
+        border: none;
+        align-items: center;
+}
+.bill_list .table th{
+    background-color: gray;
+}
