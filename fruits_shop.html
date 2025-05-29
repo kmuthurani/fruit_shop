@@ -20,24 +20,26 @@
 
     <div class="price_list">
 
-        <div class="d-flex align-items-center justify-content-evenly mb-4">
-            <div class="d-flex">
-                <label class="form-label" for="frname">FruitName:</label>
-                <input class="form-control" id="frname" type="text" name="frname">
-            </div>
-            <div class="d-flex">
-                <label class="form-label" for="price">Price:</label>
-                <input class="form-control" id="price" type="number" name="price">
-            </div>
-            <div>
-                <button type="button" class="w-100 btn btn-primary">Add</button>
-            </div>
-        </div>
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-evenly mb-4">
+                <div class="d-flex align-items-center justify-content-center">
+                    <label class="form-label" for="frname">FruitName:</label>
+                    <input class="form-control ms-3" id="frname" type="text" name="frname">
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                    <label class="form-label" for="price">Price:</label>
+                    <input class="form-control ms-3" id="price" type="number" name="price">
+                </div>
 
-        <div>
+                <button type="button" class="w-auto btn btn-primary px-5">Add</button>
+
+            </div>
+
             <div class="d-flex align-items-center justify-content-end">
-                <button type="button" class="btn btn-success w-auto px-5">Bill</button>
-                <button type="button" class="btn btn-info w-auto px-5 ms-2 me-5">List</button>
+                <div class="d-flex">
+                    <button type="button" class="btn btn-success w-auto px-5">Bill</button>
+                    <button type="button" class="btn btn-info w-auto px-5 ms-2 me-5">List</button>
+                </div>
             </div>
         </div>
     </div>
